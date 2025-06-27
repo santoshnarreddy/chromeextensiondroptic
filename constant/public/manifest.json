@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Health & Reminder Extension",
+  "version": "1.0",
+  "description": "Eye reminder, water intake tracker, and custom reminders",
+  "permissions": [
+    "storage",
+    "notifications",
+    "tabs",
+    "alarms"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+} 
